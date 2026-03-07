@@ -19,7 +19,7 @@ const links = {
 
 export function Footer() {
   return (
-    <footer className="bg-white pt-24 pb-0 px-10 overflow-hidden border-t border-neutral-100">
+    <footer className="bg-white pt-16 md:pt-24 pb-0 px-6 md:px-10 overflow-hidden border-t border-neutral-100">
       <div className="max-w-6xl mx-auto">
 
         {/* Top row */}
@@ -39,7 +39,7 @@ export function Footer() {
           </div>
 
           {/* Right — nav columns */}
-          <div className="grid grid-cols-3 gap-12">
+          <div className="grid grid-cols-3 gap-6 md:gap-12">
             {Object.entries(links).map(([category, items]) => (
               <div key={category}>
                 <p className="text-xs tracking-[0.2em] uppercase text-neutral-400 mb-4">{category}</p>
@@ -61,7 +61,7 @@ export function Footer() {
         </div>
 
         {/* Copyright row */}
-        <div className="py-6 flex justify-between items-center">
+        <div className="py-6 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2">
           <p className="text-xs text-neutral-400">
             © {new Date().getFullYear()} SIGVART AS. All rights reserved.
           </p>

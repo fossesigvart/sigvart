@@ -50,9 +50,8 @@ export const metadata: Metadata = {
     images: ["https://norgesdomene.b-cdn.net/Gemini_Generated_Image_p3zuo6p3zuo6p3zu.png"],
   },
   icons: {
-    icon: "https://norgesdomene.b-cdn.net/Gemini_Generated_Image_p3zuo6p3zuo6p3zu.png",
-    shortcut: "https://norgesdomene.b-cdn.net/Gemini_Generated_Image_p3zuo6p3zuo6p3zu.png",
-    apple: "https://norgesdomene.b-cdn.net/Gemini_Generated_Image_p3zuo6p3zuo6p3zu.png",
+    icon: "https://norgesdomene.b-cdn.net/2.png",
+    apple: "https://norgesdomene.b-cdn.net/2.png",
   },
   metadataBase: new URL("https://sigvart.no"),
 };

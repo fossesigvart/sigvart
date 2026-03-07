@@ -19,9 +19,10 @@ export function ScrollExpansion({ mediaSrc, bgImageSrc, title, subtitle }: Scrol
     offset: ['start start', 'end end'],
   });
 
-  const width = useTransform(scrollYProgress, [0, 0.8], ['40%', '100%']);
-  const height = useTransform(scrollYProgress, [0, 0.8], ['50vh', '90vh']);
-  const borderRadius = useTransform(scrollYProgress, [0, 0.8], ['1.5rem', '0rem']);
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
+  const width = useTransform(scrollYProgress, [0, 0.8], [isMobile ? '85%' : '40%', '100%']);
+  const height = useTransform(scrollYProgress, [0, 0.8], [isMobile ? '45vh' : '50vh', '90vh']);
+  const borderRadius = useTransform(scrollYProgress, [0, 0.8], ['4px', '0px']);
   const bgOpacity = useTransform(scrollYProgress, [0, 0.5], [1, 0]);
   const textX1 = useTransform(scrollYProgress, [0, 0.6], ['0%', '-60%']);
   const textX2 = useTransform(scrollYProgress, [0, 0.6], ['0%', '60%']);

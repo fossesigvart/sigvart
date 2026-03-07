@@ -3,7 +3,7 @@ import { LinkPreview } from "@/components/ui/link-preview";
 
 export function Intro() {
   return (
-    <section className="bg-white px-10 py-28">
+    <section id="about" className="bg-white px-6 md:px-10 py-16 md:py-28">
       <div className="max-w-5xl mx-auto">
 
         <p className="text-xs tracking-[0.3em] uppercase text-neutral-400 mb-10">What we do</p>
@@ -13,7 +13,7 @@ export function Intro() {
           <LinkPreview
             url="#"
             isStatic
-            imageSrc="https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=400&q=80"
+            imageSrc="https://norgesdomene.b-cdn.net/Gemini_Generated_Image_5t4lh35t4lh35t4l.png"
             noLink
             className="text-black underline underline-offset-4 decoration-neutral-300 hover:decoration-black transition-colors duration-200 cursor-default"
           >
@@ -23,7 +23,7 @@ export function Intro() {
           <LinkPreview
             url="#"
             isStatic
-            imageSrc="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&q=80"
+            imageSrc="https://norgesdomene.b-cdn.net/Gemini_Generated_Image_l2i7kyl2i7kyl2i7.png"
             noLink
             className="text-black underline underline-offset-4 decoration-neutral-300 hover:decoration-black transition-colors duration-200 cursor-default"
           >
@@ -33,7 +33,7 @@ export function Intro() {
           <LinkPreview
             url="#"
             isStatic
-            imageSrc="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=400&q=80"
+            imageSrc="https://norgesdomene.b-cdn.net/Gemini_Generated_Image_p3zuo6p3zuo6p3zu.png"
             noLink
             className="text-black underline underline-offset-4 decoration-neutral-300 hover:decoration-black transition-colors duration-200 cursor-default"
           >

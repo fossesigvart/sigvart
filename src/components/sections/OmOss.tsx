@@ -1,9 +1,10 @@
 import Image from "next/image";
 import { Timeline } from "@/components/ui/timeline";
 
-const imgClass = "rounded-xl object-cover h-40 md:h-52 w-full grayscale hover:grayscale-0 transition-all duration-500";
+const imgClass = "rounded object-cover h-40 md:h-52 w-full grayscale hover:grayscale-0 transition-all duration-500";
 
-const timelineData = [
+export function OmOss() {
+  const timelineData = [
   {
     title: "2023",
     content: (
@@ -18,15 +19,15 @@ const timelineData = [
         </p>
         <div className="grid grid-cols-2 gap-3">
           <Image
-            src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=500&q=80"
-            alt="Technology"
+            src="https://norgesdomene.b-cdn.net/Gemini_Generated_Image_t5xrm1t5xrm1t5xr.png"
+            alt="Home robot"
             width={500}
             height={500}
             className={imgClass}
           />
           <Image
-            src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=500&q=80"
-            alt="Humanoid robot"
+            src="https://norgesdomene.b-cdn.net/Gemini_Generated_Image_nmov5dnmov5dnmov.png"
+            alt="Home robot"
             width={500}
             height={500}
             className={imgClass}
@@ -49,15 +50,15 @@ const timelineData = [
         </p>
         <div className="grid grid-cols-2 gap-3">
           <Image
-            src="https://images.unsplash.com/photo-1535378917042-10a22c95931a?auto=format&fit=crop&w=500&q=80"
-            alt="Robot technology"
+            src="https://norgesdomene.b-cdn.net/Gemini_Generated_Image_fp9ic9fp9ic9fp9i.png"
+            alt="Home robot"
             width={500}
             height={500}
             className={imgClass}
           />
           <Image
-            src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=500&q=80"
-            alt="Advanced robotics"
+            src="https://norgesdomene.b-cdn.net/Gemini_Generated_Image_cgmpcgcgmpcgcgmp.png"
+            alt="Home robot"
             width={500}
             height={500}
             className={imgClass}
@@ -92,15 +93,15 @@ const timelineData = [
         </div>
         <div className="grid grid-cols-2 gap-3">
           <Image
-            src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=500&q=80"
-            alt="Signing contract"
+            src="https://norgesdomene.b-cdn.net/Gemini_Generated_Image_a99erpa99erpa99e.png"
+            alt="Home robot"
             width={500}
             height={500}
             className={imgClass}
           />
           <Image
-            src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=500&q=80"
-            alt="Digital technology"
+            src="https://norgesdomene.b-cdn.net/Gemini_Generated_Image_9hswio9hswio9hsw.png"
+            alt="Home robot"
             width={500}
             height={500}
             className={imgClass}
@@ -121,7 +122,7 @@ const timelineData = [
           European markets in 2027. Pre-orders will open ahead of launch.
           Be among the first to bring one home.
         </p>
-        <div className="grid grid-cols-4 gap-4 mb-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
           {[
             { value: "2027", label: "Planned launch" },
             { value: "EU", label: "Market" },
@@ -153,9 +154,8 @@ const timelineData = [
       </div>
     ),
   },
-];
+  ];
 
-export function OmOss() {
   return (
     <section id="om-oss" className="bg-white pb-0 -mt-16">
       <Timeline data={timelineData} />
