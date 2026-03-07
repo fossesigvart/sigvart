@@ -1,14 +1,14 @@
 import Image from "next/image";
 import { Timeline } from "@/components/ui/timeline";
 
-const imgClass = "rounded object-cover h-40 md:h-52 w-full grayscale hover:grayscale-0 transition-all duration-500";
+const imgClass = "rounded object-cover h-40 md:h-52 w-full transition-all duration-500";
 
 export function OmOss() {
   const timelineData = [
   {
     title: "2023",
     content: (
-      <div>
+      <div key="2023">
         <p className="text-black font-semibold text-base md:text-lg mb-2 font-[family-name:var(--font-heading)]">
           The idea takes shape
         </p>
@@ -41,7 +41,7 @@ export function OmOss() {
   {
     title: "2024",
     content: (
-      <div>
+      <div key="2024">
         <p className="text-black font-semibold text-base md:text-lg mb-2 font-[family-name:var(--font-heading)]">
           Sourcing the right technology
         </p>
@@ -74,7 +74,7 @@ export function OmOss() {
   {
     title: "2025–26",
     content: (
-      <div>
+      <div key="2025-26">
         <p className="text-black font-semibold text-base md:text-lg mb-2 font-[family-name:var(--font-heading)]">
           Certification & European rollout planning
         </p>
@@ -119,7 +119,7 @@ export function OmOss() {
   {
     title: "2027",
     content: (
-      <div>
+      <div key="2027">
         <p className="text-black font-semibold text-base md:text-lg mb-2 font-[family-name:var(--font-heading)]">
           Planned launch in Norway & Europe
         </p>

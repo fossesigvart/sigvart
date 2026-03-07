@@ -60,7 +60,7 @@ export function ScrollExpansion({ mediaSrc, bgImageSrc, title, subtitle }: Scrol
             src={mediaSrc}
             alt={title}
             fill
-            className="object-cover object-center grayscale hover:grayscale-0 transition-all duration-500"
+            className="object-cover object-center"
           />
           <div className="absolute inset-0 bg-black/20" />
         </motion.div>
