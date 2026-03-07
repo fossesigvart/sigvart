@@ -1,0 +1,164 @@
+import Image from "next/image";
+import { Timeline } from "@/components/ui/timeline";
+
+const imgClass = "rounded-xl object-cover h-40 md:h-52 w-full grayscale hover:grayscale-0 transition-all duration-500";
+
+const timelineData = [
+  {
+    title: "2023",
+    content: (
+      <div>
+        <p className="text-black font-semibold text-base md:text-lg mb-2 font-[family-name:var(--font-heading)]">
+          The idea takes shape
+        </p>
+        <p className="text-neutral-500 text-sm md:text-base leading-relaxed mb-8 max-w-lg">
+          SIGVART was invented in Norway with a clear mission: to make advanced home robots
+          accessible across Europe. We saw the technology emerging — and knew
+          someone had to bring it here the right way.
+        </p>
+        <div className="grid grid-cols-2 gap-3">
+          <Image
+            src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=500&q=80"
+            alt="Technology"
+            width={500}
+            height={500}
+            className={imgClass}
+          />
+          <Image
+            src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=500&q=80"
+            alt="Humanoid robot"
+            width={500}
+            height={500}
+            className={imgClass}
+          />
+        </div>
+      </div>
+    ),
+  },
+  {
+    title: "2024",
+    content: (
+      <div>
+        <p className="text-black font-semibold text-base md:text-lg mb-2 font-[family-name:var(--font-heading)]">
+          Sourcing the right technology
+        </p>
+        <p className="text-neutral-500 text-sm md:text-base leading-relaxed mb-8 max-w-lg">
+          We spent the year evaluating the most advanced home robot platforms available globally.
+          After extensive testing and due diligence, we identified the technology that meets our
+          standards for safety, reliability, and user experience.
+        </p>
+        <div className="grid grid-cols-2 gap-3">
+          <Image
+            src="https://images.unsplash.com/photo-1535378917042-10a22c95931a?auto=format&fit=crop&w=500&q=80"
+            alt="Robot technology"
+            width={500}
+            height={500}
+            className={imgClass}
+          />
+          <Image
+            src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=500&q=80"
+            alt="Advanced robotics"
+            width={500}
+            height={500}
+            className={imgClass}
+          />
+        </div>
+      </div>
+    ),
+  },
+  {
+    title: "2025–26",
+    content: (
+      <div>
+        <p className="text-black font-semibold text-base md:text-lg mb-2 font-[family-name:var(--font-heading)]">
+          Certification & European rollout planning
+        </p>
+        <p className="text-neutral-500 text-sm md:text-base leading-relaxed mb-6 max-w-lg">
+          We're working through European safety certification, GDPR compliance, and logistics
+          to ensure a smooth and responsible launch. Every detail is being handled with care.
+        </p>
+        <div className="flex flex-col gap-2 mb-8">
+          {[
+            "CE certification in progress",
+            "GDPR-compliant data handling",
+            "Norwegian & EU import compliance",
+            "Localised app and support in Norwegian",
+          ].map((item) => (
+            <div key={item} className="flex gap-3 items-center text-neutral-600 text-sm">
+              <span className="w-1.5 h-1.5 rounded-full bg-neutral-400 shrink-0" />
+              {item}
+            </div>
+          ))}
+        </div>
+        <div className="grid grid-cols-2 gap-3">
+          <Image
+            src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=500&q=80"
+            alt="Signing contract"
+            width={500}
+            height={500}
+            className={imgClass}
+          />
+          <Image
+            src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=500&q=80"
+            alt="Digital technology"
+            width={500}
+            height={500}
+            className={imgClass}
+          />
+        </div>
+      </div>
+    ),
+  },
+  {
+    title: "2027",
+    content: (
+      <div>
+        <p className="text-black font-semibold text-base md:text-lg mb-2 font-[family-name:var(--font-heading)]">
+          Planned launch in Norway & Europe
+        </p>
+        <p className="text-neutral-500 text-sm md:text-base leading-relaxed mb-8 max-w-lg">
+          Our first robots are expected to be available to customers in Norway and select
+          European markets in 2027. Pre-orders will open ahead of launch.
+          Be among the first to bring one home.
+        </p>
+        <div className="grid grid-cols-4 gap-4 mb-8">
+          {[
+            { value: "2027", label: "Planned launch" },
+            { value: "EU", label: "Market" },
+            { value: "2", label: "Plans available" },
+            { value: "2023", label: "Founded" },
+          ].map(({ value, label }) => (
+            <div key={label} className="border-t border-neutral-200 pt-4">
+              <p className="text-2xl font-bold text-black font-[family-name:var(--font-heading)]">{value}</p>
+              <p className="text-xs text-neutral-400 uppercase tracking-widest mt-1">{label}</p>
+            </div>
+          ))}
+        </div>
+        <div className="grid grid-cols-2 gap-3">
+          <Image
+            src="https://norgesdomene.b-cdn.net/Gemini_Generated_Image_l2i7kyl2i7kyl2i7.png"
+            alt="Home robot"
+            width={500}
+            height={500}
+            className={imgClass}
+          />
+          <Image
+            src="https://norgesdomene.b-cdn.net/Gemini_Generated_Image_p3zuo6p3zuo6p3zu.png"
+            alt="Home robot"
+            width={500}
+            height={500}
+            className={imgClass}
+          />
+        </div>
+      </div>
+    ),
+  },
+];
+
+export function OmOss() {
+  return (
+    <section id="om-oss" className="bg-white pb-0 -mt-16">
+      <Timeline data={timelineData} />
+    </section>
+  );
+}
