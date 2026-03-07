@@ -17,7 +17,7 @@ export function OmOss() {
           accessible across Europe. We saw the technology emerging — and knew
           someone had to bring it here the right way.
         </p>
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
           <Image
             src="https://norgesdomene.b-cdn.net/Gemini_Generated_Image_t5xrm1t5xrm1t5xr.png"
             alt="Home robot"
@@ -25,13 +25,15 @@ export function OmOss() {
             height={500}
             className={imgClass}
           />
-          <Image
-            src="https://norgesdomene.b-cdn.net/Gemini_Generated_Image_nmov5dnmov5dnmov.png"
-            alt="Home robot"
-            width={500}
-            height={500}
-            className={imgClass}
-          />
+          <div className="hidden md:block">
+            <Image
+              src="https://norgesdomene.b-cdn.net/Gemini_Generated_Image_nmov5dnmov5dnmov.png"
+              alt="Home robot"
+              width={500}
+              height={500}
+              className={imgClass}
+            />
+          </div>
         </div>
       </div>
     ),
@@ -48,7 +50,7 @@ export function OmOss() {
           After extensive testing and due diligence, we identified the technology that meets our
           standards for safety, reliability, and user experience.
         </p>
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
           <Image
             src="https://norgesdomene.b-cdn.net/Gemini_Generated_Image_fp9ic9fp9ic9fp9i.png"
             alt="Home robot"
@@ -56,13 +58,15 @@ export function OmOss() {
             height={500}
             className={imgClass}
           />
-          <Image
-            src="https://norgesdomene.b-cdn.net/Gemini_Generated_Image_cgmpcgcgmpcgcgmp.png"
-            alt="Home robot"
-            width={500}
-            height={500}
-            className={imgClass}
-          />
+          <div className="hidden md:block">
+            <Image
+              src="https://norgesdomene.b-cdn.net/Gemini_Generated_Image_cgmpcgcgmpcgcgmp.png"
+              alt="Home robot"
+              width={500}
+              height={500}
+              className={imgClass}
+            />
+          </div>
         </div>
       </div>
     ),
@@ -91,7 +95,7 @@ export function OmOss() {
             </div>
           ))}
         </div>
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
           <Image
             src="https://norgesdomene.b-cdn.net/Gemini_Generated_Image_a99erpa99erpa99e.png"
             alt="Home robot"
@@ -99,13 +103,15 @@ export function OmOss() {
             height={500}
             className={imgClass}
           />
-          <Image
-            src="https://norgesdomene.b-cdn.net/Gemini_Generated_Image_9hswio9hswio9hsw.png"
-            alt="Home robot"
-            width={500}
-            height={500}
-            className={imgClass}
-          />
+          <div className="hidden md:block">
+            <Image
+              src="https://norgesdomene.b-cdn.net/Gemini_Generated_Image_9hswio9hswio9hsw.png"
+              alt="Home robot"
+              width={500}
+              height={500}
+              className={imgClass}
+            />
+          </div>
         </div>
       </div>
     ),
@@ -135,7 +141,7 @@ export function OmOss() {
             </div>
           ))}
         </div>
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
           <Image
             src="https://norgesdomene.b-cdn.net/Gemini_Generated_Image_l2i7kyl2i7kyl2i7.png"
             alt="Home robot"
@@ -143,13 +149,15 @@ export function OmOss() {
             height={500}
             className={imgClass}
           />
-          <Image
-            src="https://norgesdomene.b-cdn.net/Gemini_Generated_Image_p3zuo6p3zuo6p3zu.png"
-            alt="Home robot"
-            width={500}
-            height={500}
-            className={imgClass}
-          />
+          <div className="hidden md:block">
+            <Image
+              src="https://norgesdomene.b-cdn.net/Gemini_Generated_Image_p3zuo6p3zuo6p3zu.png"
+              alt="Home robot"
+              width={500}
+              height={500}
+              className={imgClass}
+            />
+          </div>
         </div>
       </div>
     ),

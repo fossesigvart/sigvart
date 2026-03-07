@@ -13,8 +13,14 @@ const navLinks = [
 export function SplineSceneBasic() {
   return (
     <div className="w-full h-full bg-black relative overflow-hidden">
+      {/* Mobile: light from bottom */}
       <Spotlight
-        className="-top-40 left-1/2 -translate-x-1/2 md:-top-20"
+        className="md:hidden bottom-0 left-1/2 -translate-x-1/2 rotate-180"
+        fill="white"
+      />
+      {/* Desktop: light from top */}
+      <Spotlight
+        className="hidden md:block -top-40 left-1/2 -translate-x-1/2 md:-top-20"
         fill="white"
       />
 
@@ -49,7 +55,7 @@ export function SplineSceneBasic() {
       <div className="absolute left-6 md:left-10 top-1/2 -translate-y-[60%] z-20 max-w-[85%] md:max-w-2xl">
         <h1 className="font-[family-name:var(--font-heading)] leading-[1.1] tracking-widest uppercase">
           <TextShimmer
-            className="[--base-color:#444] [--base-gradient-color:#fff] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] tracking-widest uppercase font-[family-name:var(--font-heading)]"
+            className="[--base-color:#aaa] [--base-gradient-color:#fff] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] tracking-widest uppercase font-[family-name:var(--font-heading)]"
             duration={3}
             spread={3}
             delay={0}
@@ -58,7 +64,7 @@ export function SplineSceneBasic() {
           </TextShimmer>
           <br />
           <TextShimmer
-            className="[--base-color:#333] [--base-gradient-color:#888] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] tracking-widest uppercase font-[family-name:var(--font-heading)]"
+            className="[--base-color:#888] [--base-gradient-color:#fff] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] tracking-widest uppercase font-[family-name:var(--font-heading)]"
             duration={3}
             spread={3}
             delay={1.5}
