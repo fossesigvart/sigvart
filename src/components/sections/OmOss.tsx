@@ -79,7 +79,6 @@ export function OmOss() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
           {[
             { value: "2027", label: "Planned launch" },
-            { value: "NO/SE/DK", label: "Market" },
             { value: "2024", label: "Founded" },
           ].map(({ value, label }) => (
             <div key={label} className="border-t border-neutral-200 pt-4">

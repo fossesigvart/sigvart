@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     siteName: "ROBOTS",
     images: [
       {
-        url: "https://norgesdomene.b-cdn.net/Gemini_Generated_Image_7xw85v7xw85v7xw8.png",
+        url: "https://norgesdomene.b-cdn.net/3.png",
         width: 1200,
         height: 630,
         alt: "ROBOTS — Industrial Robots for Scandinavia",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     title: "ROBOTS — Industrial Robots for Scandinavia",
     description:
       "ROBOTS is Scandinavia's hub for industrial robots. We handle sourcing, certification, training, maintenance, service and pilot testing — in Norway, Sweden and Denmark. Launching 2027.",
-    images: ["https://norgesdomene.b-cdn.net/Gemini_Generated_Image_7xw85v7xw85v7xw8.png"],
+    images: ["https://norgesdomene.b-cdn.net/3.png"],
   },
   icons: {
     icon: "https://norgesdomene.b-cdn.net/2.png",
