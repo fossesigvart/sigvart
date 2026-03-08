@@ -47,7 +47,7 @@ export function SpinningText({
     ...BASE_TRANSITION,
     ...transition,
     duration: (transition as { duration?: number })?.duration ?? duration,
-  };
+  } as Transition;
 
   const containerVariants = {
     visible: { rotate: reverse ? -360 : 360 },
