@@ -22,6 +22,7 @@ const orbitron = Orbitron({
 
 export const viewport: Viewport = {
   themeColor: "#000000",
+  viewportFit: "cover",
 };
 
 export const metadata: Metadata = {
