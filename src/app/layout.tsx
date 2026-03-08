@@ -54,6 +54,9 @@ export const metadata: Metadata = {
     apple: "https://norgesdomene.b-cdn.net/2.png",
   },
   metadataBase: new URL("https://sigvart.no"),
+  other: {
+    "theme-color": "#000000",
+  },
 };
 
 export default function RootLayout({
