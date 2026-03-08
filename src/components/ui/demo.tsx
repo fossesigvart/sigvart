@@ -3,11 +3,14 @@
 import { SplineScene } from "@/components/ui/splite";
 import { Spotlight } from "@/components/ui/spotlight"
 import { TextShimmer } from "@/components/ui/text-shimmer"
+import { MobileMenu } from "@/components/ui/mobile-menu"
 import Image from "next/image"
 
 const navLinks = [
   { label: "About", href: "#about" },
-  { label: "Contact", href: "#kontakt" },
+  { label: "Timeline", href: "#om-oss" },
+  { label: "Technology", href: "#teknologi" },
+  { label: "Contact", href: "/contact" },
 ]
 
 export function SplineSceneBasic() {
@@ -38,18 +41,21 @@ export function SplineSceneBasic() {
         </span>
       </div>
 
-      {/* Top right — nav (hidden on mobile) */}
-      <nav className="hidden md:flex absolute top-8 right-10 z-20 gap-8">
-        {navLinks.map(({ label, href }) => (
-          <a
-            key={label}
-            href={href}
-            className="text-sm text-neutral-400 hover:text-white transition-colors duration-200 tracking-wide"
-          >
-            {label}
-          </a>
-        ))}
-      </nav>
+      {/* Top right — desktop nav + mobile menu */}
+      <div className="absolute top-6 right-6 md:top-8 md:right-10 z-20 flex items-center">
+        <nav className="hidden md:flex gap-8">
+          {navLinks.map(({ label, href }) => (
+            <a
+              key={label}
+              href={href}
+              className="text-sm text-neutral-400 hover:text-white transition-colors duration-200 tracking-wide"
+            >
+              {label}
+            </a>
+          ))}
+        </nav>
+        <MobileMenu links={navLinks} dark={true} />
+      </div>
 
       {/* Hero text — left, vertically centered */}
       <div className="absolute left-6 md:left-10 top-1/2 -translate-y-[60%] z-20 max-w-[85%] md:max-w-2xl">

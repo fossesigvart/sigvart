@@ -2,9 +2,10 @@ import Link from "next/link";
 
 const links = {
   Company: [
-    { label: "About", href: "#om-oss" },
+    { label: "About", href: "#about" },
+    { label: "Timeline", href: "#om-oss" },
     { label: "Technology", href: "#teknologi" },
-    { label: "Contact", href: "#kontakt" },
+    { label: "Contact", href: "/contact" },
   ],
   Legal: [
     { label: "Privacy Policy", href: "#" },
