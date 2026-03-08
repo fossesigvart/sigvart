@@ -3,8 +3,7 @@ import Link from "next/link";
 const links = {
   Company: [
     { label: "About", href: "#about" },
-    { label: "Timeline", href: "#om-oss" },
-    { label: "Technology", href: "#teknologi" },
+    { label: "Timeline", href: "#timeline" },
     { label: "Contact", href: "/contact" },
   ],
   Legal: [
@@ -14,7 +13,6 @@ const links = {
   Social: [
     { label: "LinkedIn", href: "#" },
     { label: "X / Twitter", href: "#" },
-    { label: "GitHub", href: "#" },
   ],
 }
 
@@ -64,7 +62,7 @@ export function Footer() {
         {/* Copyright row */}
         <div className="py-6 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2">
           <p className="text-xs text-neutral-400">
-            © {new Date().getFullYear()} ROBOTS AS. All rights reserved.
+            © {new Date().getFullYear()} ROBOTS. All rights reserved.
           </p>
           <p className="text-xs text-neutral-400">Invented in Norway</p>
         </div>

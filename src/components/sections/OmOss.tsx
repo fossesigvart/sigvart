@@ -123,7 +123,7 @@ export function OmOss() {
   ];
 
   return (
-    <section id="om-oss" className="bg-white pb-0 -mt-16">
+    <section id="timeline" className="bg-white pb-0 -mt-16">
       <Timeline data={timelineData} />
     </section>
   );
