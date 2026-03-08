@@ -6,41 +6,20 @@ const imgClass = "rounded w-full max-w-lg h-auto transition-all duration-500";
 export function OmOss() {
   const timelineData = [
   {
-    title: "2023",
-    content: (
-      <div key="2023">
-        <p className="text-black font-semibold text-base md:text-lg mb-2 font-[family-name:var(--font-heading)]">
-          The idea takes shape
-        </p>
-        <p className="text-neutral-500 text-sm md:text-base leading-relaxed mb-8 max-w-lg">
-          ROBOTS was founded in Norway with a clear mission: to become Scandinavia's
-          dedicated hub for industrial robots. We saw the technology emerging — and knew
-          someone had to bring it here the right way.
-        </p>
-        <Image
-          src="https://norgesdomene.b-cdn.net/Gemini_Generated_Image_7xw85v7xw85v7xw8.png"
-          alt="Industrial robot"
-          width={500}
-          height={500}
-          className={imgClass}
-        />
-      </div>
-    ),
-  },
-  {
     title: "2024",
     content: (
       <div key="2024">
         <p className="text-black font-semibold text-base md:text-lg mb-2 font-[family-name:var(--font-heading)]">
-          Sourcing the right technology
+          Founded & sourcing begins
         </p>
         <p className="text-neutral-500 text-sm md:text-base leading-relaxed mb-8 max-w-lg">
-          We spent the year evaluating the most advanced industrial robot platforms available globally.
-          After extensive testing and due diligence, we identified the technology that meets our
+          ROBOTS was founded in Norway with a clear mission: to become Scandinavia's
+          dedicated hub for industrial robots. We immediately set out to evaluate the most
+          advanced platforms available globally — identifying the technology that meets our
           standards for safety, reliability, and operational performance.
         </p>
         <Image
-          src="https://norgesdomene.b-cdn.net/Gemini_Generated_Image_9hswio9hswio9hsw.png"
+          src="https://norgesdomene.b-cdn.net/3.png"
           alt="Industrial robot"
           width={500}
           height={500}
@@ -76,7 +55,7 @@ export function OmOss() {
           ))}
         </div>
         <Image
-          src="https://norgesdomene.b-cdn.net/Gemini_Generated_Image_rwmxubrwmxubrwmx.png"
+          src="https://norgesdomene.b-cdn.net/8.png"
           alt="Industrial robot"
           width={500}
           height={500}
@@ -101,8 +80,7 @@ export function OmOss() {
           {[
             { value: "2027", label: "Planned launch" },
             { value: "NO/SE/DK", label: "Market" },
-            { value: "2", label: "Plans available" },
-            { value: "2023", label: "Founded" },
+            { value: "2024", label: "Founded" },
           ].map(({ value, label }) => (
             <div key={label} className="border-t border-neutral-200 pt-4">
               <p className="text-2xl font-bold text-black font-[family-name:var(--font-heading)]">{value}</p>
@@ -111,7 +89,7 @@ export function OmOss() {
           ))}
         </div>
         <Image
-          src="https://norgesdomene.b-cdn.net/Gemini_Generated_Image_f2c1gof2c1gof2c1.png"
+          src="https://norgesdomene.b-cdn.net/4.png"
           alt="Industrial robot"
           width={500}
           height={500}
