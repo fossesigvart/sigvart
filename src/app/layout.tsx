@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Montserrat, DM_Sans, Orbitron } from "next/font/google";
 import "./globals.css";
 
@@ -19,6 +19,10 @@ const orbitron = Orbitron({
   subsets: ["latin"],
   weight: ["700"],
 });
+
+export const viewport: Viewport = {
+  themeColor: "#000000",
+};
 
 export const metadata: Metadata = {
   title: "ROBOTS — Industrial Robots for Scandinavia",
@@ -54,9 +58,6 @@ export const metadata: Metadata = {
     apple: "https://norgesdomene.b-cdn.net/2.png",
   },
   metadataBase: new URL("https://sigvart.no"),
-  other: {
-    "theme-color": "#000000",
-  },
 };
 
 export default function RootLayout({
