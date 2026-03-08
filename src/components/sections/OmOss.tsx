@@ -55,7 +55,7 @@ export function OmOss() {
           ))}
         </div>
         <Image
-          src="https://norgesdomene.b-cdn.net/8.png"
+          src="https://norgesdomene.b-cdn.net/9.png"
           alt="Industrial robot"
           width={500}
           height={500}
