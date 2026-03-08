@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Montserrat, DM_Sans, Orbitron } from "next/font/google";
 import "./globals.css";
-import { PageLoader } from "@/components/ui/page-loader";
 
 const montserrat = Montserrat({
   variable: "--font-heading",
@@ -65,7 +64,6 @@ export default function RootLayout({
   return (
     <html lang="no">
       <body className={`${montserrat.variable} ${dmSans.variable} ${orbitron.variable} font-[family-name:var(--font-body)] antialiased`}>
-        <PageLoader />
         {children}
       </body>
     </html>
