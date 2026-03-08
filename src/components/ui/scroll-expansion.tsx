@@ -21,7 +21,7 @@ export function ScrollExpansion({ mediaSrc, bgImageSrc, title, subtitle }: Scrol
 
   const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
   const width = useTransform(scrollYProgress, [0, 0.8], [isMobile ? '85%' : '40%', '100%']);
-  const height = useTransform(scrollYProgress, [0, 0.8], [isMobile ? '45vh' : '50vh', '90vh']);
+  const height = useTransform(scrollYProgress, [0, 0.8], [isMobile ? '45vh' : '50vh', '100vh']);
   const borderRadius = useTransform(scrollYProgress, [0, 0.8], ['4px', '0px']);
   const bgOpacity = useTransform(scrollYProgress, [0, 0.5], [1, 0]);
   const textX1 = useTransform(scrollYProgress, [0, 0.6], ['0%', '-60%']);
@@ -35,7 +35,7 @@ export function ScrollExpansion({ mediaSrc, bgImageSrc, title, subtitle }: Scrol
 
   return (
     <div ref={containerRef} className="relative h-[250vh]">
-      <div className="sticky top-0 h-screen flex items-center justify-center overflow-hidden bg-black">
+      <div className="sticky top-0 h-screen overflow-hidden bg-black relative">
 
         {/* Background image — fades out */}
         {bgImageSrc && (
@@ -53,7 +53,7 @@ export function ScrollExpansion({ mediaSrc, bgImageSrc, title, subtitle }: Scrol
 
         {/* Expanding media */}
         <motion.div
-          className="relative z-10 overflow-hidden"
+          className="absolute z-10 overflow-hidden top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
           style={{ width, height, borderRadius }}
         >
           <Image

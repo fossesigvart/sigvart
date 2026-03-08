@@ -21,22 +21,22 @@ const orbitron = Orbitron({
 });
 
 export const metadata: Metadata = {
-  title: "SIGVART — Home Robots for Europe",
+  title: "ROBOTS — Industrial Robots for Scandinavia",
   description:
-    "SIGVART imports and distributes the world's most advanced home robots to Europe. Invented in Norway. Launching 2027.",
-  keywords: ["home robot", "humanoid robot", "robot Europe", "SIGVART", "home automation", "robotics Norway"],
+    "ROBOTS is Scandinavia's hub for industrial robots. We handle sourcing, certification, training, maintenance, service and pilot testing — in Norway, Sweden and Denmark. Launching 2027.",
+  keywords: ["industrial robot", "industrial automation", "robot Scandinavia", "ROBOTS", "robotics Norway", "robot training", "robot maintenance", "robot service", "pilot testing"],
   openGraph: {
-    title: "SIGVART — Home Robots for Europe",
+    title: "ROBOTS — Industrial Robots for Scandinavia",
     description:
-      "SIGVART imports and distributes the world's most advanced home robots to Europe. Invented in Norway. Launching 2027.",
+      "ROBOTS is Scandinavia's hub for industrial robots. We handle sourcing, certification, training, maintenance, service and pilot testing — in Norway, Sweden and Denmark. Launching 2027.",
     url: "https://sigvart.no",
-    siteName: "SIGVART",
+    siteName: "ROBOTS",
     images: [
       {
-        url: "https://norgesdomene.b-cdn.net/Gemini_Generated_Image_p3zuo6p3zuo6p3zu.png",
+        url: "https://norgesdomene.b-cdn.net/Gemini_Generated_Image_7xw85v7xw85v7xw8.png",
         width: 1200,
         height: 630,
-        alt: "SIGVART — Home Robots for Europe",
+        alt: "ROBOTS — Industrial Robots for Scandinavia",
       },
     ],
     locale: "en_US",
@@ -44,10 +44,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SIGVART — Home Robots for Europe",
+    title: "ROBOTS — Industrial Robots for Scandinavia",
     description:
-      "SIGVART imports and distributes the world's most advanced home robots to Europe. Invented in Norway. Launching 2027.",
-    images: ["https://norgesdomene.b-cdn.net/Gemini_Generated_Image_p3zuo6p3zuo6p3zu.png"],
+      "ROBOTS is Scandinavia's hub for industrial robots. We handle sourcing, certification, training, maintenance, service and pilot testing — in Norway, Sweden and Denmark. Launching 2027.",
+    images: ["https://norgesdomene.b-cdn.net/Gemini_Generated_Image_7xw85v7xw85v7xw8.png"],
   },
   icons: {
     icon: "https://norgesdomene.b-cdn.net/2.png",

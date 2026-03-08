@@ -31,7 +31,7 @@ const features = [
     icon: <Shield className="h-4 w-4" />,
     title: "Built-In Safety",
     description:
-      "Every SIGVART robot ships with multi-layer collision detection and fail-safe protocols engineered for real-world unpredictability.",
+      "Every robot we supply ships with multi-layer collision detection and fail-safe protocols engineered for real-world unpredictability.",
   },
   {
     area: "md:[grid-area:3/1/4/13] xl:[grid-area:2/8/3/13]",

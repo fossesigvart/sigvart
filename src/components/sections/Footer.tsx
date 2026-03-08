@@ -28,13 +28,13 @@ export function Footer() {
           {/* Left — tagline */}
           <div className="max-w-xs">
             <span className="text-black text-lg font-bold tracking-[0.2em] font-[family-name:var(--font-logo)]">
-              SIGVART
+              ROBOTS
             </span>
             <p className="mt-4 text-sm text-neutral-500 leading-relaxed">
-              Bringing the world's best home robots to Europe. Planned launch in 2027.
+              Scandinavia's hub for industrial robots — sourcing, training, maintenance, service and pilot testing. Planned launch in 2027.
             </p>
             <p className="mt-6 text-xs text-neutral-400">
-              hello@sigvart.no &nbsp;·&nbsp; +47 900 00 000
+              hello@robots.no &nbsp;·&nbsp; +47 900 00 000
             </p>
           </div>
 
@@ -63,7 +63,7 @@ export function Footer() {
         {/* Copyright row */}
         <div className="py-6 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2">
           <p className="text-xs text-neutral-400">
-            © {new Date().getFullYear()} SIGVART AS. All rights reserved.
+            © {new Date().getFullYear()} ROBOTS AS. All rights reserved.
           </p>
           <p className="text-xs text-neutral-400">Invented in Norway</p>
         </div>
@@ -73,7 +73,7 @@ export function Footer() {
       <div className="w-full flex items-end justify-center -mb-3">
         <h2 className="text-center font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-white select-none leading-none
           text-[20vw] font-[family-name:var(--font-logo)] tracking-tight">
-          SIGVART
+          ROBOTS
         </h2>
       </div>
     </footer>

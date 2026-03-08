@@ -7,7 +7,7 @@ import Image from "next/image"
 
 const navLinks = [
   { label: "About", href: "#about" },
-  { label: "Contact", href: "mailto:hello@sigvart.no" },
+  { label: "Contact", href: "#kontakt" },
 ]
 
 export function SplineSceneBasic() {
@@ -28,13 +28,13 @@ export function SplineSceneBasic() {
       <div className="absolute top-6 left-6 md:top-8 md:left-10 z-20 flex items-center gap-2">
         <Image
           src="https://norgesdomene.b-cdn.net/sigvartikon.png"
-          alt="SIGVART icon"
+          alt="ROBOTS icon"
           width={24}
           height={24}
           className="w-5 h-5 md:w-6 md:h-6"
         />
         <span className="text-white text-base md:text-lg font-bold tracking-[0.2em] font-[family-name:var(--font-logo)]">
-          SIGVART
+          ROBOTS
         </span>
       </div>
 
@@ -60,7 +60,7 @@ export function SplineSceneBasic() {
             spread={3}
             delay={0}
           >
-            Your home,
+            Industry,
           </TextShimmer>
           <br />
           <TextShimmer
@@ -69,14 +69,14 @@ export function SplineSceneBasic() {
             spread={3}
             delay={1.5}
           >
-            reinvented.
+            automated.
           </TextShimmer>
         </h1>
         <p className="mt-4 md:mt-6 text-sm md:text-base text-neutral-500 leading-relaxed max-w-xs md:max-w-none">
-          Coming to Europe in 2027. Be among the first to pre-order.
+          Coming to Scandinavia in 2027. Be among the first.
         </p>
         <a
-          href="#om-oss"
+          href="#about"
           className="mt-6 md:mt-10 inline-block text-xs md:text-sm tracking-[0.25em] uppercase text-neutral-400 border-b border-neutral-700 pb-0.5 hover:text-white hover:border-white transition-colors duration-200"
         >
           Discover
