@@ -30,13 +30,13 @@ export function SplineSceneBasic() {
       <div className="absolute top-6 left-6 md:top-8 md:left-10 z-20 flex items-center gap-2">
         <Image
           src="https://norgesdomene.b-cdn.net/sigvartikon.png"
-          alt="ROBOTS icon"
+          alt="STARBOT icon"
           width={24}
           height={24}
           className="w-5 h-5 md:w-6 md:h-6"
         />
         <span className="text-white text-base md:text-lg font-bold tracking-[0.2em] font-[family-name:var(--font-logo)]">
-          ROBOTS
+          STARBOT
         </span>
       </div>
 

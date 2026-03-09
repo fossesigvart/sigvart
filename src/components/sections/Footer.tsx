@@ -27,13 +27,13 @@ export function Footer() {
           {/* Left — tagline */}
           <div className="max-w-xs">
             <span className="text-black text-lg font-bold tracking-[0.2em] font-[family-name:var(--font-logo)]">
-              ROBOTS
+              STARBOT
             </span>
             <p className="mt-4 text-sm text-neutral-500 leading-relaxed">
               Scandinavia's hub for industrial robots — sourcing, training, maintenance, service and pilot testing. Planned launch in 2027.
             </p>
             <p className="mt-6 text-xs text-neutral-400">
-              hello@robots.no &nbsp;·&nbsp; +47 900 00 000
+              hello@starbot.no &nbsp;·&nbsp; +47 900 00 000
             </p>
           </div>
 
@@ -62,7 +62,7 @@ export function Footer() {
         {/* Copyright row */}
         <div className="py-6 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2">
           <p className="text-xs text-neutral-400">
-            © {new Date().getFullYear()} ROBOTS. All rights reserved.
+            © {new Date().getFullYear()} STARBOT. All rights reserved.
           </p>
           <p className="text-xs text-neutral-400">Invented in Norway</p>
         </div>
@@ -72,7 +72,7 @@ export function Footer() {
       <div className="w-full flex items-end justify-center -mb-3">
         <h2 className="text-center font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-white select-none leading-none
           text-[20vw] font-[family-name:var(--font-logo)] tracking-tight">
-          ROBOTS
+          STARBOT
         </h2>
       </div>
     </footer>

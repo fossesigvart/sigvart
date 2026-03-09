@@ -13,7 +13,7 @@ export function OmOss() {
           Founded & sourcing begins
         </p>
         <p className="text-neutral-500 text-sm md:text-base leading-relaxed mb-8 max-w-lg">
-          ROBOTS was founded in Norway with a clear mission: to become Scandinavia's
+          STARBOT was founded in Norway with a clear mission: to become Scandinavia's
           dedicated hub for industrial robots. We immediately set out to evaluate the most
           advanced platforms available globally — identifying the technology that meets our
           standards for safety, reliability, and operational performance.

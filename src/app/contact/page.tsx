@@ -5,12 +5,12 @@ import { AnimatedText } from '@/components/ui/animated-shiny-text';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 
 export const metadata = {
-  title: 'Contact — ROBOTS',
-  description: 'Get in touch with ROBOTS. We handle industrial robots across Scandinavia — Norway, Sweden and Denmark.',
+  title: 'Contact — STARBOT',
+  description: 'Get in touch with STARBOT. We handle industrial robots across Scandinavia — Norway, Sweden and Denmark.',
 };
 
 const contactInfo = [
-  { icon: MailIcon, label: 'Email', value: 'hello@robots.no' },
+  { icon: MailIcon, label: 'Email', value: 'hello@starbot.no' },
   { icon: PhoneIcon, label: 'Phone', value: '+47 900 00 000' },
   { icon: MapPinIcon, label: 'Coverage', value: 'Norway, Sweden & Denmark' },
 ];
@@ -31,7 +31,7 @@ export default function ContactPage() {
           href="/"
           className="text-black text-base font-bold tracking-[0.2em] font-[family-name:var(--font-logo)]"
         >
-          ROBOTS
+          STARBOT
         </Link>
         <div className="flex items-center gap-4">
           <Link

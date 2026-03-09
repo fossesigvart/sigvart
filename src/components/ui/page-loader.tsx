@@ -8,11 +8,11 @@ export function PageLoader() {
   const [show, setShow] = useState(false);
 
   useEffect(() => {
-    const hasLoaded = sessionStorage.getItem('robots-loaded');
+    const hasLoaded = sessionStorage.getItem('starbot-loaded');
     if (hasLoaded) return;
 
     setShow(true);
-    sessionStorage.setItem('robots-loaded', '1');
+    sessionStorage.setItem('starbot-loaded', '1');
 
     const timer = setTimeout(() => setShow(false), 1800);
     return () => clearTimeout(timer);
@@ -34,7 +34,7 @@ export function PageLoader() {
             duration={8}
             className="absolute text-neutral-500 tracking-widest uppercase"
           >
-            {'INDUSTRIAL ROBOTS • SCANDINAVIA • 2027 • '}
+            {'STARBOT • SCANDINAVIA • 2027 • '}
           </SpinningText>
 
           {/* Center logo */}
@@ -44,7 +44,7 @@ export function PageLoader() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.4, delay: 0.1 }}
           >
-            ROBOTS
+            STARBOT
           </motion.span>
         </motion.div>
       )}

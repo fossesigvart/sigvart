@@ -45,7 +45,7 @@ export function MobileMenu({ links, dark = true }: MobileMenuProps) {
           >
             <div className="flex items-center justify-between px-6 py-6">
               <span className="text-black text-base font-bold tracking-[0.2em] font-[family-name:var(--font-logo)]">
-                ROBOTS
+                STARBOT
               </span>
               <button
                 onClick={() => setOpen(false)}

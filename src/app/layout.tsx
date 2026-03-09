@@ -26,22 +26,22 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "ROBOTS — Industrial Robots for Scandinavia",
+  title: "STARBOT — Industrial Robots for Scandinavia",
   description:
-    "ROBOTS is Scandinavia's hub for industrial robots. We handle sourcing, certification, training, maintenance, service and pilot testing — in Norway, Sweden and Denmark. Launching 2027.",
-  keywords: ["industrial robot", "industrial automation", "robot Scandinavia", "ROBOTS", "robotics Norway", "robot training", "robot maintenance", "robot service", "pilot testing"],
+    "STARBOT is Scandinavia's hub for industrial robots. We handle sourcing, certification, training, maintenance, service and pilot testing — in Norway, Sweden and Denmark. Launching 2027.",
+  keywords: ["industrial robot", "industrial automation", "robot Scandinavia", "STARBOT", "robotics Norway", "robot training", "robot maintenance", "robot service", "pilot testing"],
   openGraph: {
-    title: "ROBOTS — Industrial Robots for Scandinavia",
+    title: "STARBOT — Industrial Robots for Scandinavia",
     description:
-      "ROBOTS is Scandinavia's hub for industrial robots. We handle sourcing, certification, training, maintenance, service and pilot testing — in Norway, Sweden and Denmark. Launching 2027.",
+      "STARBOT is Scandinavia's hub for industrial robots. We handle sourcing, certification, training, maintenance, service and pilot testing — in Norway, Sweden and Denmark. Launching 2027.",
     url: "https://sigvart.no",
-    siteName: "ROBOTS",
+    siteName: "STARBOT",
     images: [
       {
         url: "https://norgesdomene.b-cdn.net/3.png",
         width: 1200,
         height: 630,
-        alt: "ROBOTS — Industrial Robots for Scandinavia",
+        alt: "STARBOT — Industrial Robots for Scandinavia",
       },
     ],
     locale: "en_US",
@@ -49,9 +49,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "ROBOTS — Industrial Robots for Scandinavia",
+    title: "STARBOT — Industrial Robots for Scandinavia",
     description:
-      "ROBOTS is Scandinavia's hub for industrial robots. We handle sourcing, certification, training, maintenance, service and pilot testing — in Norway, Sweden and Denmark. Launching 2027.",
+      "STARBOT is Scandinavia's hub for industrial robots. We handle sourcing, certification, training, maintenance, service and pilot testing — in Norway, Sweden and Denmark. Launching 2027.",
     images: ["https://norgesdomene.b-cdn.net/3.png"],
   },
   icons: {
